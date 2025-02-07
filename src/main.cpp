@@ -4,16 +4,6 @@
 
 #include "../include/include.hpp"
 
-struct MyStruct {
-  int h;
-};
-
-class MyClass {
-public:
-  int d = 5;
-  MyClass(int d) { d = d; }
-};
-
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
 }
