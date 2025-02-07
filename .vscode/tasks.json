@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"isBuildCommand": true,
+			"command": "make",
+			"group": {
+				"kind": "build",
+				"isDefault": true,
+			},
+			"label": "make: build"
+		}
+	]
+}
